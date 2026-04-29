@@ -6,9 +6,6 @@ body {
   margin: 0;
 }
 
-.site-header {
-
-}
 
 .header-div {
   display: flex;
@@ -42,10 +39,10 @@ body {
 
 .side-image-right {
 width: 1070px;
-  max-width: 600px;
+  max-width: 750px;
   height: 330px;
   object-fit: cover;
-  border-radius: 8px;
+
 }
 
 .brand-logo {
@@ -96,7 +93,6 @@ width: 1070px;
   border-radius: 50px;
   border: 2px solid #ffffff;
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  
   letter-spacing: 0.3px;
 }
 
@@ -171,13 +167,31 @@ width: 1070px;
 }
 
 
-.site-footer {
-  background-color: #8b1a1a;
-  color: #f5c4b3;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
+
+.wrapper-logoo {
+   max-width:1000px;
+	margin:auto;
+	padding:20px;
+  background-color: #ffffff; 
+    background-size:cover;
+    border-bottom:5px  solid #8b1a1a;
+  background-image: url(assets/Beans_and_Barley_Primary_FC.png);
+  background-size:380px;
+  background-repeat: no-repeat;
+  background-position: 580px center;
+  
+}
+
+.left-p {
+background-color: #6b1c14; /* dark red/brown */
+  color: white;
+  padding: 30px;
+  width: 350px;
+  margin-left: 40px;
 }
 
 
+.logo-bg {
+  background-image: url("assets/BG.jfif");
+}
 

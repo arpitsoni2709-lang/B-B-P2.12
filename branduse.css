@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-bg {
+  background-image: url("assets/BG.jfif");
+  background-repeat: repeat;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f2f2f0;
+  color: #333;
+}
+
+.site-header {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.brand-logo {
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.main-nav {
+  background-color: #D4A24c;
+  padding: 20px 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.nav-link {
+  background-color: #ffffff;
+  color: #8b1a1a;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #D4A24c;
+  color: #ffffff;
+}
+
+.wrapper-logoo {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  
+}
+
+.smbb {
+   max-width: 350px;
+  width: 499x;
+  display: block;  
+  margin-top: 39px;
+  justify-content: center;
+  align-content: center;
+
+}
