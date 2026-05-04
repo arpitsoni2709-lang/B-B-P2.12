@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-bg {
+  background-image: url("assets/BG.jfif");
+  background-repeat: repeat;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f2f2f0;
+  color: #333;
+}
+
+.site-header {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.brand-logo {
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.main-nav {
+  background-color: #D4A24c;
+  padding: 20px 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.nav-link {
+  background-color: #ffffff;
+  color: #8b1a1a;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #D4A24c;
+  color: #ffffff;
+}
+
+.wrapper-logoo {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #ffffff;
+
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.api {
+     max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #8b1a1a;
+}
+ 
+    
+
+h1 {
+     background-color: #D4A24c;
+  color: #8b1a1a;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 22px;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  transition: 0.3s;
+  padding: 10px;
+  margin: 10px;
+
+ }
+.asd {
+    background-color: #8b1a1a;
+    border-radius: 20px;
+    
+}
+
+p {
+color: #ffffff;
+    background-color: #8b1a1a;
+    margin: 10px;
+}
+ 
+
+ .site-about {
+    max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #8b1a1a;
+ }
+
+ .company-section {
+    max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #8b1a1a;
+ }
